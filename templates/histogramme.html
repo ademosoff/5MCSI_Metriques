@@ -5,9 +5,9 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart(data) {
-        
+      google.charts.setOnLoadCallback(drawBackgroundColor);
+     function drawBackgroundColor() {
+    function drawChart(data) {
     var dataTable = new google.visualization.DataTable();
     dataTable.addColumn('string', 'Date');
     dataTable.addColumn('number', 'Valeur');
